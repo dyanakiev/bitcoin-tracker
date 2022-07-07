@@ -4,13 +4,13 @@
             <div class="col-md-6">
                 <div class="">
                     <label class="form-label" for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" v-model="form.email" placeholder="Your email">
+                    <input type="email" class="form-control" id="email" v-model="form.email" placeholder="Your email">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="">
                     <label class="form-label" for="target_price">Target price</label>
-                    <input type="text" class="form-control" id="target_price" name="target_price" v-model="form.target_price" value="20.0000">
+                    <input type="text" class="form-control" id="target_price" v-model="form.target_price" value="20.0000">
                 </div>
             </div>
         </div>
