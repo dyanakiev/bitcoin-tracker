@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [\App\Http\Controllers\HomeController::class,'index'])->name('home');
+
+Route::get('/chartData', [\App\Http\Controllers\HomeController::class,'chartData'])->name('chartData');
+
+Route::post('/subscribe', [\App\Http\Controllers\HomeController::class,'subscribe'])->name('subscribe');

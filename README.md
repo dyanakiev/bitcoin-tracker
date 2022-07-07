@@ -8,13 +8,12 @@ Time Spent on project
 
 ## Todo List
 - [x] Install Laravel
-- [x] Create btc/usd ticker table
-- [ ] Create Bitfinex consumable service
-- [ ] Create cron to run every minute
-- [ ] Add tests
-- [ ] Draw graph
-- [ ] Create email notifications table
-- [ ] Add HTML Form to subscribe for email notifications
-- [ ] Create email notification service
-- [ ] Use events to call the email notifications service from the bitfinex cron
+- [x] Create btc/usd statistics table
+- [X] Create Bitfinex API service
+- [X] Create cron to run every minute
+- [X] Draw graph with chartjs and vuejs fetch data with axios
+- [X] Create email notifications table
+- [X] Add HTML Form with vuejs to subscribe for email notifications
+- [X] Create email notification
+- [X] Write feature tests
 - [ ] Add unsubscribe url in the Email
